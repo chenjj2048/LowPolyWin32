@@ -79,13 +79,23 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Pixel.h" />
+    <ClInclude Include="PixelMap.h" />
+    <ClInclude Include="PictureManager.h" />
+    <ClInclude Include="Tool.h" />
     <ClInclude Include="LowPolyWin32.h" />
+    <ClInclude Include="MainApp.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Pixel.cpp" />
+    <ClCompile Include="PixelMap.cpp" />
+    <ClCompile Include="PictureManager.cpp" />
+    <ClCompile Include="Tool.cpp" />
     <ClCompile Include="LowPolyWin32.cpp" />
+    <ClCompile Include="MainApp.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
